@@ -169,12 +169,12 @@ a {
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 38, 55, 0.16);
 }
-.home-banner h2, .home-banner h3 {
+.home-banner h1, .home-banner h2 {
   position: relative;
   z-index: 1;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
-.home-banner h2 {
+.home-banner h1 {
   padding-top: 130px;
   line-height: 38px;
   font-size: 42px;
@@ -183,7 +183,7 @@ a {
   letter-spacing: 2px;
   line-height: 52px;
 }
-.home-banner h3 {
+.home-banner h2 {
   font-size: 20px;
   font-weight: normal;
   letter-spacing: 10px;
@@ -611,7 +611,7 @@ a {
 }
 
 .post-wrapper {
-  width: 720px;
+  width: 1000px;
 }
 
 .post-header {
@@ -743,7 +743,7 @@ a {
 }
 .post-content .post-subtitle {
   position: relative;
-  width: 720px;
+  width: 1000px;
   font-size: 18px;
   color: #a6a6a6;
   font-weight: normal;
@@ -771,7 +771,7 @@ a {
 
 .markdown-body {
   font-family: "Merriweather-Light", -apple-system, Verdana, "PingFang SC", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  width: 720px;
+  width: 1000px;
   box-sizing: border-box;
   padding: 0 0 32px;
 }
@@ -801,7 +801,7 @@ a {
 
 .post-footer-item {
   margin: 0 auto;
-  width: 720px;
+  width: 1000px;
 }
 
 .author-detail {
@@ -811,7 +811,7 @@ a {
 
 .read-next {
   display: flex;
-  width: 720px;
+  width: 1000px;
   margin: 60px auto;
 }
 
@@ -886,7 +886,7 @@ a {
   height: 300px;
   text-align: center;
 }
-.tags-banner h2 {
+.tags-banner h1 {
   font-size: 36px;
   line-height: 300px;
 }
@@ -1132,11 +1132,11 @@ iframe {
   .home-banner {
     height: 600px;
   }
-  .home-banner h2 {
+  .home-banner h1 {
     padding-top: 260px;
     font-size: 42px;
   }
-  .home-banner h3 {
+  .home-banner h2 {
     font-size: 22px;
   }
 }
@@ -1158,7 +1158,7 @@ iframe {
     width: 56px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1086.9565217391px) {
   .post-wrapper, .markdown-body, .read-next {
     width: 92%;
   }
@@ -1241,7 +1241,7 @@ iframe {
   .g-banner {
     padding: 0 20px;
   }
-  .home-banner h3, .tags-banner h3 {
+  .home-banner h1, .tags-banner h1 {
     margin-top: 8px;
   }
   .home-content {
@@ -1267,12 +1267,12 @@ iframe {
   .home-banner {
     height: 210px;
   }
-  .home-banner h2 {
+  .home-banner h1 {
     padding-top: 115px;
     font-size: 28px;
     line-height: 48px;
   }
-  .home-banner h3 {
+  .home-banner h2 {
     margin-top: 2px;
     font-size: 18px;
     letter-spacing: 6px;
@@ -1363,11 +1363,11 @@ iframe {
   }
 }
 @media screen and (max-width: 376px) {
-  .home-banner h2 {
+  .home-banner h1 {
     font-size: 26px;
     line-height: 38px;
   }
-  .home-banner h3 {
+  .home-banner h2 {
     margin-top: 4px;
     font-size: 16px;
   }

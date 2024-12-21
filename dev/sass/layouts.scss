@@ -1,11 +1,13 @@
+@use "sass:math";
+
 @media screen and (min-width: 1920px) {
     .home-banner {
         height: 600px;
-        h2 {
+        h1 {
             padding-top: 260px;
             font-size: 42px;
         }
-        h3 {
+        h2 {
             font-size: 22px;
         }
     }
@@ -32,18 +34,19 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+$post-width1: 92%;
+@media screen and (max-width: math.div($post-content-w, math.div($post-width1, 100%))) {
     .post-wrapper, .markdown-body, .read-next {
-        width: 92%;
+        width: $post-width1;
     }
     .post-content {
         .post-subtitle {
-            width: 92%;
+            width: $post-width1;
         }
     }
     .author-detail {
         .author-card {
-            width: 92%;
+            width: $post-width1;
         }
     }
 }
@@ -128,7 +131,7 @@
         padding: 0 20px;
     }
     .home-banner, .tags-banner {
-        h3 {
+        h2 {
             margin-top: 8px;
         }
     }
@@ -157,12 +160,12 @@
 @media screen and (max-width: 500px) {
     .home-banner {
         height: 210px;
-        h2 {
+        h1 {
             padding-top: 115px;
             font-size: 28px;
             line-height: 48px;
         }
-        h3 {
+        h2 {
             margin-top: 2px;
             font-size: 18px;
             letter-spacing: 6px;
@@ -268,11 +271,11 @@
 
 @media screen and (max-width: 376px) {
     .home-banner {
-        h2 {
+        h1 {
             font-size: 26px;
             line-height: 38px;
         }
-        h3 {
+        h2 {
             margin-top: 4px;
             font-size: 16px;
         }

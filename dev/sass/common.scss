@@ -113,12 +113,12 @@
     text-align: center;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 38, 55, .16);
-    h2, h3{
+    h1, h2{
         position: relative;
         z-index: 1;
         text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
     }
-    h2 {
+    h1 {
         padding-top: 130px;
         line-height: 38px;
         font-size: 42px;
@@ -127,7 +127,7 @@
         letter-spacing: 2px;
         line-height: 52px;
     }
-    h3 {
+    h2 {
         font-size: 20px;
         font-weight: normal;
         letter-spacing: 10px;
@@ -671,7 +671,7 @@
 .tags-banner {
     height: 300px;
     text-align: center;
-    h2 {
+    h1 {
         font-size: 36px;
         line-height: 300px;
     }
