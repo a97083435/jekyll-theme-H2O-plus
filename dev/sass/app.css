@@ -945,7 +945,7 @@ a {
   padding-top: 40px;
   margin-bottom: 12px;
   margin-bottom: 24px;
-  max-width: 800px;
+  max-width: 1200px;
 }
 .info-content .markdown-body {
   padding: 0;
@@ -1241,7 +1241,7 @@ iframe {
   .g-banner {
     padding: 0 20px;
   }
-  .home-banner h1, .tags-banner h1 {
+  .home-banner h2, .tags-banner h2 {
     margin-top: 8px;
   }
   .home-content {
